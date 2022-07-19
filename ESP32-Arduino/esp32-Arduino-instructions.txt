@@ -1,0 +1,19 @@
+Step 1: download Arduino from https://www.arduino.cc/en/software/
+
+Step 2: launch the app and go to file -> Prefrences
+
+Step 3: enter the following URL into the "Additional Board Manager URLs” field
+
+https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
+
+and click ok
+
+Step 4: Go to Tools > Board > Boards Manager and type "esp32" and install the "ESP32 by Espressif Systems" package
+
+Step 5: Connect your ESP32 board to your computer and navigate to Tools -> Boards and select ESP32Dev board
+
+Step 6: Open device manager and check to which com port your ESP32 is connected to, then go to Tools -> port and select yours.
+
+Step 7: test the installaion by uploading the code in the "blink" folder in this repository
+
+Step 8: the LED on the board should start blinking
