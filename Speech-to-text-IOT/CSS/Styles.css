@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    /*border: 1px solid red;*/
+
+  }
+  .Container .record{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 16px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
+  .Container .record:click{
+   background-color: black;
+   color: white;
+   
+  }
+
+  .p{
+    resize: none;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 20px;
+    /* border: none; */
+    height: 200px;
+    width: 550px;
+    text-align: center;
+    
+  }
+
+  .Message{
+    position: absolute;
+    top: 27%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: black;
+    font-size: 16px;
+    padding: 16px 30px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  .LANG{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+   
+  }
+ 
